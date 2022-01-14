@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;500&family=Yeseva+One&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width:1154px;
+    display: flex;
+    padding:0 120px;
+}
+.button{
+    text-decoration: none;
+    border-radius:41px;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    padding: 10px 24px;
+
+
+}
+ul{
+    display: flex;
+}
+.nav-item{
+    list-style: none;
+}
+ul >li > a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+  
+    align-items: center;
+}
+.navbar{
+    display:flex;
+}
+.popular-container{
+    max-width:1056px;
+    padding:100px 196px;
+}
+.popular-title{
+    text-align:center;
+}
