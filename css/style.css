@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;500&family=Yeseva+One&display=swap');
+
 body{
     font-family: 'Poppins', sans-serif;
     
@@ -161,12 +162,19 @@ justify-content: space-between;
 }
 /* Mobile */
 @media only screen and (max-width:688px) {
+    
     .container{
         width: 100%;
-        padding:0px;
+        padding:0;
         display: flex;
         flex-direction: column;
     }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        }
     .influencer-camera{
         order:1;
         width:100%;
@@ -192,6 +200,10 @@ justify-content: space-between;
     .collections{
        
         grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
     }
 
 
@@ -217,7 +229,7 @@ justify-content: space-between;
 @media only screen and (min-width:688px) and (max-width:992px){
    .container{
        width: 100%;
- 
+       padding:0;
    }
    .catagories{
     display:grid;
