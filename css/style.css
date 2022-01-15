@@ -188,7 +188,9 @@ height:240px;
 background-color: #0A0826;
 color: #FFFFFF;
 }
-
+.footer-text{
+text-align: center;
+}
 .footer-desc{
     height:139px;
     width:265px;
