@@ -291,6 +291,11 @@ justify-content: space-between;
        width: 100%;
        padding:0;
    }
+
+
+ .navbar{
+  display:none;
+   }
    /* product container */
    .catagories{
     display:grid;
